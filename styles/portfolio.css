@@ -25,6 +25,20 @@
     cursor:pointer;
 
 }
+.section-heading{
+    width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
 /* main style */
 header{
@@ -32,13 +46,15 @@ header{
     background:url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat:no-repeat;
     background-position: top left,bottom right;
+    min-height: 800px; 
     padding-top:50px;
+    /* padding-left: 200px; */
 }
 .color-orange{
     color:#FD6E0A;
 }
 nav{
-   width:67.20%;
+   width:67.5%;
    max-width: 1140px;
    /* border:1px solid red; */
    margin:0px auto;
@@ -48,6 +64,7 @@ nav{
 nav .manu{
     display:flex;
     list-style: none;
+    margin-right:192px;
     gap:53px;
     align-items: center;
     align-items: center;
@@ -66,12 +83,12 @@ nav .manu a{
     align-items: center;
 }
 #banner .banner-content{
-    max-width:585px;
+    max-width:1332px;
 
 }
 #banner .banner-content h2{
     font-size:45px;
-    font-weight:600 ;
+    font-weight:1332px;
     margin-bottom: 5px;
 }
 #banner .banner-content h1{
@@ -88,6 +105,31 @@ nav .manu a{
 
 }
 #banner .banner-image img{
-    max-width: 500px;
-    vertical-align: middle;
+    max-width: 400px;
+    vertical-align:middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width:67.5%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding:131px 156px;
+}
+#about .about-container .about-info{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color:#757575;
+    
+}
+.about-info .info-card h4{
+    font-size: 20px;
 }
